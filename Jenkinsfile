@@ -1,5 +1,5 @@
 pipeline {
-  agent any
+  agent {node{ label 'slaveimage-0.0.1'}}
    stages {
     stage("Build") {
       steps {
