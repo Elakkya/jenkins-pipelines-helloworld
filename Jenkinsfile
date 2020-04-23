@@ -1,9 +1,6 @@
 pipeline {
   agent any
-  tools {
-    gradle 'Default'
-  }
-  stages {
+   stages {
     stage("Build") {
       steps {
         echo "building..."
